@@ -153,10 +153,9 @@ document.head.appendChild(style);
 
 // Newsletter form
 document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
-    e.preventDefault();
     const email = this.querySelector('input[type="email"]').value;
     showNotification(`Thanks! Check "${email}" for exclusive offers.`);
-    this.reset();
+    // Form will submit to Formspree automatically
 });
 
 // ========== CHECKOUT HANDLER ==========
