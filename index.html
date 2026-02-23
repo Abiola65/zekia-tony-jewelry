@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Zekia Tony - Luxury Jewelry</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header>
+    <nav>
+        <h1 class="logo">Zekia Tony</h1>
+        <ul id="navMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div id="home" class="hero-content">
+        <h2>Timeless Beauty</h2>
+        <p>Crafted to Shine. Designed to Inspire.</p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </div>
+</header>
+
+<!-- SHOP SECTION -->
+<section id="shop" class="shop">
+    <div class="shop-header">
+        <h2>Our Collection</h2>
+        <p>Exquisite jewelry pieces crafted with passion and precision</p>
+    </div>
+
+    <div class="products-grid">
+        <!-- Product 1: Diamond Ring -->
+        <div class="product-card">
+            <div class="product-image-wrapper">
+                <img src="images/ring.jpg" alt="Diamond Ring">
+                <div class="price-tag">$5,500</div>
+                <div class="product-overlay">
+                    <button class="add-to-cart-btn" data-product="Diamond Ring" data-price="5500">Add to Cart</button>
+                </div>
+            </div>
+            <h3>Diamond Ring</h3>
+            <p>Elegant 18k handcrafted ring</p>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <!-- Product 2: Gold Necklace -->
+        <div class="product-card">
+            <div class="product-image-wrapper">
+                <img src="images/Expensive Gold.avif" alt="Gold Necklace">
+                <div class="price-tag">$6,800</div>
+                <div class="product-overlay">
+                    <button class="add-to-cart-btn" data-product="Gold Necklace" data-price="6800">Add to Cart</button>
+                </div>
+            </div>
+            <h3>Gold Necklace</h3>
+            <p>Luxury statement necklace</p>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <!-- Product 3: Classic Earrings -->
+        <div class="product-card">
+            <div class="product-image-wrapper">
+                <img src="images/classic earings.webp" alt="Classic Earrings">
+                <div class="price-tag">$2,450</div>
+                <div class="product-overlay">
+                    <button class="add-to-cart-btn" data-product="Classic Earrings" data-price="2450">Add to Cart</button>
+                </div>
+            </div>
+            <h3>Classic Earrings</h3>
+            <p>Minimal & timeless design</p>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <!-- Product 4: Pearl Bracelet -->
+        <div class="product-card">
+            <div class="product-image-wrapper">
+                <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/pearl-bracelet-2785147_640.jpg" alt="Pearl Bracelet">
+                <div class="price-tag">$4,200</div>
+                <div class="product-overlay">
+                    <button class="add-to-cart-btn" data-product="Pearl Bracelet" data-price="4200">Add to Cart</button>
+                </div>
+            </div>
+            <h3>Pearl Bracelet</h3>
+            <p>Luxurious pearl collection piece</p>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <!-- Product 5: Silver Pendant -->
+        <div class="product-card">
+            <div class="product-image-wrapper">
+                <img src="images/silver pendant.webp" alt="Silver Pendant">
+                <div class="price-tag">$3,200</div>
+                <div class="product-overlay">
+                    <button class="add-to-cart-btn" data-product="Silver Pendant" data-price="3200">Add to Cart</button>
+                </div>
+            </div>
+            <h3>Silver Pendant</h3>
+            <p>Elegant silver necklace pendant</p>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <!-- Product 6: Gemstone Ring -->
+        <div class="product-card">
+            <div class="product-image-wrapper">
+                <img src="images/expensive ring.avif" alt="Gemstone Ring">
+                <div class="price-tag">$4,900</div>
+                <div class="product-overlay">
+                    <button class="add-to-cart-btn" data-product="Gemstone Ring" data-price="4900">Add to Cart</button>
+                </div>
+            </div>
+            <h3>Gemstone Ring</h3>
+            <p>Beautiful gemstone engagement ring</p>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+    <div class="about-content">
+        <h2>Our Story</h2>
+        <p>
+            At Zekia Tony, we believe jewelry is more than an accessory. It is a symbol of elegance, confidence, and timeless beauty. Every piece is carefully crafted with passion and precision by master artisans with over 30 years of experience in the jewelry industry.
+        </p>
+        <div class="about-stats">
+            <div class="stat">
+                <h3>5K+</h3>
+                <p>Happy Customers</p>
+            </div>
+            <div class="stat">
+                <h3>2000+</h3>
+                <p>Unique Pieces</p>
+            </div>
+            <div class="stat">
+                <h3>30+</h3>
+                <p>Years Experience</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-cards">
+        <div class="testimonial">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>"Absolutely stunning quality! The engagement ring exceeded all my expectations. Highly recommended!"</p>
+            <h4>Sarah Johnson</h4>
+        </div>
+        <div class="testimonial">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>"The customer service is exceptional. They helped me find the perfect piece for my special occasion."</p>
+            <h4>Michael Chen</h4>
+        </div>
+        <div class="testimonial">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>"Worth every penny. These pieces are investment-worthy and absolutely timeless. Love them!"</p>
+            <h4>Emma Davis</h4>
+        </div>
+    </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+    <h2>Join Our Exclusive Club</h2>
+    <p>Get updates on new collections and exclusive offers</p>
+    <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn">Subscribe</button>
+    </form>
+</section>
+
+<!-- PAYMENT/CHECKOUT SECTION -->
+<section id="checkout" class="checkout">
+    <div class="checkout-container">
+        <h2>Secure Checkout</h2>
+        <div class="checkout-content">
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <div class="cart-items" id="cartItems">
+                    <p class="empty-cart">Your cart is empty</p>
+                </div>
+                <div class="order-total">
+                    <h4>Total: <span id="totalAmount">$0.00</span></h4>
+                </div>
+            </div>
+
+            <div class="payment-form-container">
+                <h3>Payment via PayPal</h3>
+                
+                <div class="paypal-info">
+                    <p>🔒 Secure payment powered by PayPal</p>
+                    <p>Your payment information is 100% secure</p>
+                </div>
+
+                <form class="payment-form" id="checkoutForm">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" id="fullName" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" id="customerEmail" placeholder="john@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Shipping Address</label>
+                        <input type="text" id="address" placeholder="Street Address" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>City</label>
+                            <input type="text" id="city" placeholder="New York" required>
+                        </div>
+                        <div class="form-group">
+                            <label>State</label>
+                            <input type="text" id="state" placeholder="NY" required>
+                        </div>
+                        <div class="form-group">
+                            <label>ZIP Code</label>
+                            <input type="text" id="zipcode" placeholder="10001" required>
+                        </div>
+                    </div>
+                </form>
+
+                <button class="btn btn-pay" id="checkoutBtn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-content">
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h3>Visit Us</h3>
+                    <p>123 Luxury Lane, NY 10001</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h3>Call Us</h3>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3>Email Us</h3>
+                    <p>info@zekaitony.com</p>
+                </div>
+            </div>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Zekia Tony</h4>
+            <p>Luxury jewelry crafted with passion and precision</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 Zekia Tony. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
